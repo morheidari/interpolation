@@ -119,6 +119,7 @@
   font-size: 0.9rem;
   outline: none;
   height: 40px;
+  width: 150px;
 }
 
 input:focus {
@@ -130,6 +131,7 @@ input:focus {
     flex-direction: column;
     gap: 10px;
     align-items: center;
+    align-items: start;
 }
 
 .result{
@@ -146,4 +148,10 @@ input:focus {
     font-size: 16px;
     gap: 20px;
     align-items: center;
+}
+
+
+.title{
+    padding-top: 32px;
+    font-size: large;
 }

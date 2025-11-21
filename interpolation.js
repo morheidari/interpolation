@@ -74,8 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     }
-    resultBox.textContent = interp(line, x)
-    console.log(line)    
+    resultBox.textContent = `y: ${interp(line, x)}` 
   })
   });
   
