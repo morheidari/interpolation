@@ -1,0 +1,149 @@
+/* --- CSS Reset --- */
+
+/* Remove default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Improve text rendering */
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Set full height */
+  html, body {
+    height: 100%;
+  }
+  
+  /* Remove default link styling */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Reset buttons and inputs */
+  button, input, textarea, select {
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  /* Image behavior */
+  img, picture, video, canvas, svg {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Make sure forms behave */
+  input, textarea, button, select {
+    border-radius: 0;
+  }
+  
+  /* Use a consistent base line-height */
+  body {
+    line-height: 1.5;
+  }
+
+  
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .data{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    justify-content: center;
+    padding-top: 25px;
+  }
+
+  .entry{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: start;
+  }
+
+  .display{
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+  }
+
+  .table-h ,.table-r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .table-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    width: 80px;
+    height: 40px;
+  }
+  button{
+    padding: 0.5rem 1rem;
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    height: 40px;
+  }
+  
+  button:hover {
+    opacity: 0.85;
+  }
+
+  input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  height: 40px;
+}
+
+input:focus {
+  border-color: #000;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.result{
+    width: 150px;
+    height: 40px;
+    border: #000 solid 1px;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    outline: none;
+}
+.rcontainer{
+    display: flex;
+    font-size: 16px;
+    gap: 20px;
+    align-items: center;
+}
